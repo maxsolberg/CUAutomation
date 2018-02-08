@@ -1,3 +1,4 @@
+# Created by Max Solberg
 # Volume via cross-products and determinants
 
 A= int(input("X-component of vector u:"))
