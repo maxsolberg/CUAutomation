@@ -1,10 +1,43 @@
 h1{
    font-family: "Arial Black", Gadget, sans-serif;
+   color: white;
+   padding: 15px;1
+}
+
+header{
    background-color:  #c0392b;
 }
 
 body{
    font-family: Arial, Helvetica, sans-serif;
+   padding: 15px;
+}
+
+img {
+   padding: 15px;
+   height: auto;
+   max-width: 98%;
+}
+
+#mainLogo{
+   max-height: 72px;
+   width: auto;
+}
+
+#headContent{
+   max-width: 1500px;
+   margin: auto;
+   padding: 15px;
+}
+#Navlink {
+   color: #d6d6d6;
+   text-decoration: none;
+}
+
+#tableEl{
+   padding: 15px;
+   display: table-cell;
+   text-align: justify;
 }
 
 #page{
@@ -14,16 +47,16 @@ body{
    /* border: 3px solid #2ecc71; */
 }
 
-#content {
-   display: table-row;
-}
-
 #main {
-   display: table-cell;
-   max-width: 2000px;
    margin: auto;
    padding: 15px;
+   text-align: justify;
    /* border: 3px solid #2ecc71; */
+}
+
+a{
+   padding: 15px;
+
 }
 
 #sidebar {
