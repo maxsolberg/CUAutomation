@@ -4,9 +4,9 @@
 import math
 
 print("Input A, B, and C for Ax^2+Bx+C=0")
-A= float(input("A: "))
-B= float(input("B: "))
-C= float(input("C: "))
-D= (-B+math.sqrt(B**2-4*A*C))/(2*A)
-E= (-B-math.sqrt(B**2-4*A*C))/(2*A)
-print("The solutions to the equation " + str(A) + "x^2+" + str(B) + "x+" + str(C) + " are: " + str(D) + " and " + str(E))
+a= float(input("A: "))
+b= float(input("B: "))
+c= float(input("C: "))
+d= (-b+math.sqrt(b**2-4*a*c))/(2*a)
+E= (-b-math.sqrt(B**2-4*a*c))/(2*a)
+print("The solutions to the equation " + str(a) + "x^2+" + str(b) + "x+" + str(c) + " are: " + str(d) + " and " + str(e))

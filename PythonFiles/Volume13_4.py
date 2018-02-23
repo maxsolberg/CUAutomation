@@ -1,18 +1,18 @@
 # Volume via cross-products and determinants
 # Created by Max Solberg
 
-A= float(input("X-component of vector u: "))
-B= float(input("Y-component of vector u: "))
-C= float(input("Z-component of vector u: "))
-D= float(input("X-component of vector v: "))
-E= float(input("Y-component of vector v: "))
-F= float(input("Z-component of vector v: "))
-G= float(input("X-component of vector w: "))
-H= float(input("Y-component of vector w: "))
-I= float(input("Z-component of vector w: "))
-J= (A*(E*I-F*H)+B*(F*G-D*I)+C*(D*H-E*G))
+a= float(input("X-component of vector u: "))
+b= float(input("Y-component of vector u: "))
+c= float(input("Z-component of vector u: "))
+d= float(input("X-component of vector v: "))
+e= float(input("Y-component of vector v: "))
+f= float(input("Z-component of vector v: "))
+g= float(input("X-component of vector w: "))
+h= float(input("Y-component of vector w: "))
+i= float(input("Z-component of vector w: "))
+j= (a*(e*i-f*h)+b*(f*g-d*i)+c*(d*h-e*g))
 
-Volume= (str(J))
+Volume= (str(j))
 
 Answer= "The volume is " + Volume
 
