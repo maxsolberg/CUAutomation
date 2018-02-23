@@ -1,14 +1,14 @@
-h1{
+h1 {
    font-family: "Arial Black", Gadget, sans-serif;
    color: white;
-   padding: 15px;1
+   padding: 15px;
 }
 
-header{
-   background-color:  #c0392b;
+header {
+   background-color: #c0392b;
 }
 
-body{
+body {
    font-family: Arial, Helvetica, sans-serif;
    padding: 15px;
 }
@@ -19,28 +19,29 @@ img {
    max-width: 98%;
 }
 
-#mainLogo{
+#mainLogo {
    max-height: 72px;
    width: auto;
 }
 
-#headContent{
+#headContent {
    max-width: 1500px;
    margin: auto;
    padding: 15px;
 }
+
 #Navlink {
    color: #d6d6d6;
    text-decoration: none;
 }
 
-#tableEl{
+#tableEl {
    padding: 15px;
    display: table-cell;
    text-align: justify;
 }
 
-#page{
+#page {
    max-width: 1500px;
    margin: auto;
    height: inherit;
@@ -54,9 +55,8 @@ img {
    /* border: 3px solid #2ecc71; */
 }
 
-a{
+a {
    padding: 15px;
-
 }
 
 #sidebar {
