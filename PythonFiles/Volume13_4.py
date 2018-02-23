@@ -1,5 +1,5 @@
-# Created by Max Solberg
 # Volume via cross-products and determinants
+# Created by Max Solberg
 
 A= int(input("X-component of vector u:"))
 B= int(input("Y-component of vector u:"))
