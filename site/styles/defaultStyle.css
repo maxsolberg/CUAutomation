@@ -43,6 +43,7 @@ a {
    padding: 15px;
    display: table-cell;
    text-align: justify;
+   vertical-align: middle;
 }
 
 #page {
