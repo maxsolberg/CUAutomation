@@ -3,5 +3,5 @@
 
 a= float(input("length of the rectangle: "))
 b= float(input("width of the rectangle: "))
-c= A*B
-print("area of the rectangle is: " + str(C))
+c= a*b
+print("area of the rectangle is: " + str(c))
