@@ -1,4 +1,4 @@
-# Area of a Cylinder
+# Area of a Right Cylinder
 # By Jacob Johansen
 
 import math as m
