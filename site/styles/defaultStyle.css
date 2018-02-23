@@ -70,6 +70,6 @@ a {
 
 #headshot {
    display: table-cell;
-   max-width: 500px;
+   max-width: 50%;
    height: auto;
 }
