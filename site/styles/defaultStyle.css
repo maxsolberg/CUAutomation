@@ -50,6 +50,7 @@ a {
    max-width: 1500px;
    margin: auto;
    height: inherit;
+   background-color: #e74c3c;
    /* border: 3px solid #2ecc71; */
 }
 
