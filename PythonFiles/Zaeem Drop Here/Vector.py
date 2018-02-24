@@ -6,13 +6,13 @@ class Vector(object):
     x,y,z are defaulted to 0
 
     Parameter x: x for x postion
-    Precondition: x is a any number
+    Precondition: x is a number
 
     Parameter y: y for z postion
-    Precondition: y is a any number
+    Precondition: y is a number
 
     Parameter z: z for z postion
-    Precondition: z is a any number
+    Precondition: z is a number
     """
     def __init__(self, x=0, y= 0, z=0):
         self._x = x
