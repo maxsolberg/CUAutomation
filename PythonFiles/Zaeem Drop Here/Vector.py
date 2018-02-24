@@ -1,3 +1,6 @@
+# Vector class
+# Written by Zaeem Rana
+
 class Vector(object):
 
     """
@@ -14,7 +17,7 @@ class Vector(object):
     Parameter z: z for z postion
     Precondition: z is a number
     """
-    def __init__(self, x=0, y= 0, z=0):
+    def __init__(self, x=0, y=0, z=0):
         self._x = x
         self._y = y
         self._z = z
