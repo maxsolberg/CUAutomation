@@ -1,0 +1,25 @@
+Terminal:
+pwd == print working directory
+q == quit
+q! == quit without saving
+x == write and quit
+open == open the arg
+. == the current directory
+.. == the parent directory
+~ == home folder (root directory)
+CTRL + a == jump to front of line
+CTRL + e == jump to end of line
+clear == clear the terminal
+CMD + TAB == new terminal tab
+CMD + SHIFT + LEFT/RIGHT == switch between tabs
+man <command> == documentation for <command>
+CTRL + c == break command running an infinite loop
+mkdir name == make directory in .
+mkdir -p name1/name2 == make all directories along the path given
+touch name.ext== create the file name.ext if it doesn't already exist
+cat name.ext == output the content of the file name.ext
+mv name.ext name2.ext == rename name.ext to name2.ext
+mv name.ext <path> == move name.ext to <path>
+cp == copy file (with same syntax as mv)
+rm name.ext == delete name.ext
+rm -R <path> == ---NEVER USE UNLESS YOU'RE 10000% SURE YOU TYPED IT RIGHT--- delete directory and all it’s contained files and subdirectories
