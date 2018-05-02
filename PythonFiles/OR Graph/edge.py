@@ -17,7 +17,7 @@ class Edge():
     def __init__(self, start, end, weight):
         self.start_node = start
         self.end_node = end
-        self.weight = math.sqrt((self.start_node.x-self.end_node.x)**2 + (self.start_node.y-self.end_node.y)**2) if weight == True else weight
+        self.weight = self.start_node.distanceto(self.end_node) if weight == True else weight
         # self.directedness = direct
 
     def __str__(self):

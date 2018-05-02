@@ -1,3 +1,5 @@
+import math
+
 class Node():
     """An instance is a node on a graph.
 
@@ -11,3 +13,6 @@ class Node():
 
     def __str__(self):
         return "Node at (" + str(self.x) + ", " + str(self.y) + ")"
+
+    def distanceto(self, other):
+        return math.sqrt((self.x-other.x)**2 + (self.y-other.y)**2)
