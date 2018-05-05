@@ -17,4 +17,4 @@ edge46 = e.Edge(node4,node6,None,True)
 edge56 = e.Edge(node5,node6,None,True)
 edgelist = [edge12,edge13,edge24,edge35,edge46,edge56]
 graph1 = g.Graph(nodelist,edgelist)
-graphgui = graphGUI.GraphGUI(graph1)
+graphgui = graphGUI.GraphGUI(graph1,500,400)

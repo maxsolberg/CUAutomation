@@ -5,11 +5,13 @@ class GraphGUI():
 
     Instance attributes:
         graph (Graph object): a Graph containing lists of Node objects and
-            Edge objects connecting those nodes."""
+            Edge objects connecting those nodes.
+        width (int): width of the GraphGUI object.
+        height (int): height of the GraphGUI object."""
 
-    def __init__(self, graph):
+    def __init__(self, graph,width,height):
         self.graph = graph
-        window = GraphWin(self.graph.title, 500, 400)
+        window = GraphWin(self.graph.title, width, height)
         for node in self.graph.nodes:
             point = Circle(Point(node.x, node.y),10)
             point.draw(window)
