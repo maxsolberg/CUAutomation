@@ -4,9 +4,9 @@ class Node():
     """An instance is a node on a graph.
 
     Instance attributes:
-        x: the x-coordinate of the Node
-        y: the y-coordinate of the Node
-        value: the value associated with a given Node object. This could
+        x (float): the x-coordinate of the Node
+        y (float): the y-coordinate of the Node
+        value (float): the value associated with a given Node object. This could
             represent the population of a city Node, the value of a gem Node,
             etc.
         name (str): the name associated with a given Node object.
@@ -14,8 +14,8 @@ class Node():
             these are nodes that are reachable from the given Node by edges
             connecting the two.
         edges (list): a list of edges leaving the Node. This includes
-        non-directed edges and directed edges with this Node as the endpoint."""
-
+            non-directed edges and directed edges with this Node as the
+            endpoint."""
 
     def __init__(self, x=0, y=0, value=1, name=None):
         self.x = x
