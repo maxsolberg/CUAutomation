@@ -21,7 +21,7 @@ class Node():
         self.x = x
         self.y = y
         self.value = value
-        self.name = name if name != None else "Node at (" + str(self.x) + ", " + str(self.y) + ") of value " + str(self.value)
+        self.name = name if name != None else self.coordinates() # "Node at (" + str(self.x) + ", " + str(self.y) + ") of value " + str(self.value)
         self.neighbors = []
         self.edges = []
 
