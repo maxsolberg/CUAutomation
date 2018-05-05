@@ -1,5 +1,3 @@
-import math
-
 class Edge():
     """An instance is an edge between two Node objects.
 
