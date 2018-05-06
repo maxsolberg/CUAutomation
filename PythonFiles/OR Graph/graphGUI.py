@@ -9,7 +9,7 @@ class GraphGUI():
         width (int): width of the GraphGUI object.
         height (int): height of the GraphGUI object."""
 
-    def __init__(self, graph,width=640,height=480):
+    def __init__(self, graph, width=640, height=480):
         self.graph = graph
         window = GraphWin(self.graph.title, width, height)
         for node in self.graph.nodes:
