@@ -23,7 +23,7 @@ class Graph:
         e.end.edges.remove(e)
         self.edges.remove(e)
 
-    def findSpanningTree(self, r):
+    def findSpanningTree(self, r=random()):
         tree = []
         treeNodes = []
 
@@ -64,7 +64,7 @@ def graphBuilder(seed=0, density=-1):
 
     tree = g.findSpanningTree(r)
 
-    toRemove = sample(g.edges, floor(len(g.edges) * (1 - density)))
+    toRemove = r.sample(g.edges, floor(len(g.edges) * (1 - density)))
     for e in toRemove:
         if tree.count(e) == 0:
             g.removeEdge(e)
