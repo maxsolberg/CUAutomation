@@ -36,7 +36,6 @@ class GraphGUI:
 
         for line in list(self.edges.values()):
             line.draw(win)
-        win.getMouse()
         for node in list(self.nodes.keys()):
             self.nodes[node].draw(win)
             text = Text(Point(node.x, node.y),node.name)
