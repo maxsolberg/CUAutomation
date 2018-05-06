@@ -39,7 +39,7 @@ a {
    display:         flex;
    max-width: 1500px;
    margin: auto;
-   overflow: auto;
+   overflow: hidden;
    -webkit-align-items: center;
            align-items: center;
 }
@@ -102,4 +102,9 @@ a {
    text-align: justify;
    vertical-align: middle;
    max-width: 500px;
+}
+
+.comicSans {
+   font-family: "Comic Sans MS", cursive, sans-serif	;
+   font-size: 24px;
 }
