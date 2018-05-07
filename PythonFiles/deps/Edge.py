@@ -17,6 +17,6 @@ class Edge:
 
     """ return the node on the other end of this edge from n"""
     def other(self, n):
-        if start == n:
-            return end
-        return start
+        if self.start == n:
+            return self.end
+        return self.start
