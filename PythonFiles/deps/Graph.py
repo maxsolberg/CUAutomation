@@ -27,17 +27,23 @@ class Graph:
         tree = []
         treeNodes = []
 
-        r.shuffle(self.edges)
+        node = r.choice(self.nodes)
 
-        for e in self.edges:
-            if len(tree) == len(self.nodes) - 1:
-                return tree
-            if treeNodes.count(e.start) == 0 or treeNodes.count(e.end) == 0:
-                if treeNodes.count(e.start) == 0:
-                    treeNodes.append(e.start)
-                if treeNodes.count(e.end) == 0:
-                    treeNodes.append(e.end)
-                tree.append(e)
+        while len(tree) < len(self.nodes) - 1:
+            treeNodes.append(node)
+            exits = []
+            for n in treeNodes:
+                for e in n.edges:
+                    if treeNodes.count(e.other(n)) == 0:
+                        exits.append(e)
+
+            edge = r.choice(exits)
+            tree.append(edge)
+            treeNodes.append(edge.start)
+            treeNodes.append(edge.end)
+
+            treeNodes = list(set(treeNodes))
+
         return tree
 
 
