@@ -1,5 +1,5 @@
 import math as m
-
+import json
 
 class Node:
 
@@ -21,3 +21,16 @@ class Node:
     def addNeighbor(self, other, edge):
         self.neighbors.append(other)
         self.edges.append(edge)
+
+
+        # THIS FUNCITON DOESNT WORK NEEDS FIXING
+    def toJSON(self):
+        encoder = json.JSONEncoder()
+        return("{"
+        + "x:" + str(self.x)
+        + ", y:" + str(self.y)
+        + ", val:" + str(self.val)
+        + ", neighbors:" + encoder.encode(self.neighbors)
+        + ", edges:"+ encoder.encode(self.edges)
+        + ", name:" + str(self.name)
+        + "}")

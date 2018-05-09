@@ -3,7 +3,7 @@ from .Node import Node
 from .Edge import Edge
 from sys import maxsize as MAX_INT
 from math import floor
-
+import json
 
 class Graph:
 
@@ -46,6 +46,8 @@ class Graph:
 
         return tree
 
+    def toJSON(self):
+        return json.JSONEncoder().encode(self)
 
 def graphBuilder(seed=0, density=-1):
     r = Random()
